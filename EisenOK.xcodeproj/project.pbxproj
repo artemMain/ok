@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		308586AC20EF91930002F2A5 /* ShowTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308586AB20EF91930002F2A5 /* ShowTaskViewController.swift */; };
+		C425F81820D260CD00D9EF6C /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C425F81720D260CD00D9EF6C /* ProjectViewController.swift */; };
+		C425F81A20D2654100D9EF6C /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C425F81920D2654100D9EF6C /* TaskView.swift */; };
+		C45B5A7620E6CE7B00923CCF /* UpdateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B5A7520E6CE7B00923CCF /* UpdateTaskViewController.swift */; };
+		C469AABF20EB79E000A82534 /* RadioWaveAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C469AABE20EB79DF00A82534 /* RadioWaveAnimationView.swift */; };
+		C469AAC320EB989E00A82534 /* IncomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C469AAC220EB989E00A82534 /* IncomingViewController.swift */; };
+		C469AAD620EBB97500A82534 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C469AAD520EBB97500A82534 /* StatisticsViewController.swift */; };
+		C469AAD820ED022800A82534 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = C469AAD720ED022700A82534 /* KDCircularProgress.swift */; };
+		C46D48D620FE01DA002AE11A /* CustomTableViewCellProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D48D520FE01DA002AE11A /* CustomTableViewCellProject.swift */; };
+		C46D48D820FE2152002AE11A /* NewProjectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D48D720FE2152002AE11A /* NewProjectVC.swift */; };
+		C46D48DA20FE2CED002AE11A /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D48D920FE2CED002AE11A /* CustomTextView.swift */; };
+		C4923D5521011D020089490C /* CustomCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4923D5421011D020089490C /* CustomCardView.swift */; };
+		C493C1432124C5A70097A8F6 /* CustomTableViewCellTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = C493C1422124C5A70097A8F6 /* CustomTableViewCellTask.swift */; };
+		C4997F1120D8FBD5005C7F53 /* ShowTaskTodayCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4997F1020D8FBD4005C7F53 /* ShowTaskTodayCategoryViewController.swift */; };
+		C4997F1520D91F27005C7F53 /* AddNewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4997F1420D91F27005C7F53 /* AddNewTaskViewController.swift */; };
+		C4B8359C20EACBA700F00EAB /* ANCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B8359B20EACBA700F00EAB /* ANCustomView.swift */; };
+		C4E8BF0F210FB7D600F00882 /* IconProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8BF0E210FB7D600F00882 /* IconProjectCell.swift */; };
+		C4FD422420A625BF00493E19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FD422320A625BF00493E19 /* AppDelegate.swift */; };
+		C4FD422620A625BF00493E19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FD422520A625BF00493E19 /* ViewController.swift */; };
+		C4FD422920A625BF00493E19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4FD422720A625BF00493E19 /* Main.storyboard */; };
+		C4FD422B20A625C400493E19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4FD422A20A625C400493E19 /* Assets.xcassets */; };
+		C4FD422E20A625C400493E19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4FD422C20A625C400493E19 /* LaunchScreen.storyboard */; };
+		C4FD423920A625C400493E19 /* EisenOKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FD423820A625C400493E19 /* EisenOKTests.swift */; };
+		C4FD424420A625C400493E19 /* EisenOKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FD424320A625C400493E19 /* EisenOKUITests.swift */; };
+		C4FD425520AC7BFA00493E19 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FD425420AC7BFA00493E19 /* TodayViewController.swift */; };
+		C4FD425820AC962E00493E19 /* EisenOKDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4FD425620AC962E00493E19 /* EisenOKDB.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4FD423520A625C400493E19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4FD421820A625BF00493E19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4FD421F20A625BF00493E19;
+			remoteInfo = EisenOK;
+		};
+		C4FD424020A625C400493E19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4FD421820A625BF00493E19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4FD421F20A625BF00493E19;
+			remoteInfo = EisenOK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		308586AB20EF91930002F2A5 /* ShowTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTaskViewController.swift; sourceTree = "<group>"; };
+		C425F81720D260CD00D9EF6C /* ProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		C425F81920D2654100D9EF6C /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		C45B5A7520E6CE7B00923CCF /* UpdateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTaskViewController.swift; sourceTree = "<group>"; };
+		C469AABE20EB79DF00A82534 /* RadioWaveAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioWaveAnimationView.swift; sourceTree = "<group>"; };
+		C469AAC220EB989E00A82534 /* IncomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingViewController.swift; sourceTree = "<group>"; };
+		C469AAD520EBB97500A82534 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		C469AAD720ED022700A82534 /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
+		C46D48D520FE01DA002AE11A /* CustomTableViewCellProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCellProject.swift; sourceTree = "<group>"; };
+		C46D48D720FE2152002AE11A /* NewProjectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProjectVC.swift; sourceTree = "<group>"; };
+		C46D48D920FE2CED002AE11A /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		C4923D5421011D020089490C /* CustomCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardView.swift; sourceTree = "<group>"; };
+		C493C1422124C5A70097A8F6 /* CustomTableViewCellTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCellTask.swift; sourceTree = "<group>"; };
+		C4997F1020D8FBD4005C7F53 /* ShowTaskTodayCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTaskTodayCategoryViewController.swift; sourceTree = "<group>"; };
+		C4997F1420D91F27005C7F53 /* AddNewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTaskViewController.swift; sourceTree = "<group>"; };
+		C4B8359B20EACBA700F00EAB /* ANCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANCustomView.swift; sourceTree = "<group>"; };
+		C4E8BF0E210FB7D600F00882 /* IconProjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconProjectCell.swift; sourceTree = "<group>"; };
+		C4FD422020A625BF00493E19 /* EisenOK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EisenOK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FD422320A625BF00493E19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4FD422520A625BF00493E19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4FD422820A625BF00493E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4FD422A20A625C400493E19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4FD422D20A625C400493E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4FD422F20A625C400493E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4FD423420A625C400493E19 /* EisenOKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EisenOKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FD423820A625C400493E19 /* EisenOKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisenOKTests.swift; sourceTree = "<group>"; };
+		C4FD423A20A625C400493E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4FD423F20A625C400493E19 /* EisenOKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EisenOKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FD424320A625C400493E19 /* EisenOKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisenOKUITests.swift; sourceTree = "<group>"; };
+		C4FD424520A625C400493E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4FD425420AC7BFA00493E19 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		C4FD425720AC962E00493E19 /* EisenOKDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EisenOKDB.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4FD421D20A625BF00493E19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FD423120A625C400493E19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FD423C20A625C400493E19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C454CE132107B94F00C1EDA6 /* IconProject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IconProject;
+			sourceTree = "<group>";
+		};
+		C46D48E120FE6EBA002AE11A /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				C469AABE20EB79DF00A82534 /* RadioWaveAnimationView.swift */,
+				C469AAD720ED022700A82534 /* KDCircularProgress.swift */,
+				C4B8359B20EACBA700F00EAB /* ANCustomView.swift */,
+				C46D48D920FE2CED002AE11A /* CustomTextView.swift */,
+				C46D48D520FE01DA002AE11A /* CustomTableViewCellProject.swift */,
+				C493C1422124C5A70097A8F6 /* CustomTableViewCellTask.swift */,
+				C4923D5421011D020089490C /* CustomCardView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		C46D48E220FE6F06002AE11A /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				C46D48D720FE2152002AE11A /* NewProjectVC.swift */,
+				C4E8BF0E210FB7D600F00882 /* IconProjectCell.swift */,
+				C425F81720D260CD00D9EF6C /* ProjectViewController.swift */,
+				C454CE132107B94F00C1EDA6 /* IconProject */,
+				C46D48E520FE6FCB002AE11A /* Task */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		C46D48E320FE6F28002AE11A /* Incoming */ = {
+			isa = PBXGroup;
+			children = (
+				C469AAC220EB989E00A82534 /* IncomingViewController.swift */,
+			);
+			path = Incoming;
+			sourceTree = "<group>";
+		};
+		C46D48E420FE6F38002AE11A /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				C469AAD520EBB97500A82534 /* StatisticsViewController.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		C46D48E520FE6FCB002AE11A /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				308586AB20EF91930002F2A5 /* ShowTaskViewController.swift */,
+				C4997F1420D91F27005C7F53 /* AddNewTaskViewController.swift */,
+				C45B5A7520E6CE7B00923CCF /* UpdateTaskViewController.swift */,
+				C425F81920D2654100D9EF6C /* TaskView.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		C4997F1620D92C7B005C7F53 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				C4FD425420AC7BFA00493E19 /* TodayViewController.swift */,
+				C4997F1020D8FBD4005C7F53 /* ShowTaskTodayCategoryViewController.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		C4FD421720A625BF00493E19 = {
+			isa = PBXGroup;
+			children = (
+				C4FD422220A625BF00493E19 /* EisenOK */,
+				C4FD425620AC962E00493E19 /* EisenOKDB.xcdatamodeld */,
+				C4FD423720A625C400493E19 /* EisenOKTests */,
+				C4FD424220A625C400493E19 /* EisenOKUITests */,
+				C4FD422120A625BF00493E19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4FD422120A625BF00493E19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4FD422020A625BF00493E19 /* EisenOK.app */,
+				C4FD423420A625C400493E19 /* EisenOKTests.xctest */,
+				C4FD423F20A625C400493E19 /* EisenOKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4FD422220A625BF00493E19 /* EisenOK */ = {
+			isa = PBXGroup;
+			children = (
+				C4FD422320A625BF00493E19 /* AppDelegate.swift */,
+				C4FD422720A625BF00493E19 /* Main.storyboard */,
+				C4FD422C20A625C400493E19 /* LaunchScreen.storyboard */,
+				C4FD422A20A625C400493E19 /* Assets.xcassets */,
+				C46D48E120FE6EBA002AE11A /* Custom */,
+				C4FD422F20A625C400493E19 /* Info.plist */,
+				C4FD425320AB26F100493E19 /* ViewController */,
+			);
+			path = EisenOK;
+			sourceTree = "<group>";
+		};
+		C4FD423720A625C400493E19 /* EisenOKTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4FD423820A625C400493E19 /* EisenOKTests.swift */,
+				C4FD423A20A625C400493E19 /* Info.plist */,
+			);
+			path = EisenOKTests;
+			sourceTree = "<group>";
+		};
+		C4FD424220A625C400493E19 /* EisenOKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4FD424320A625C400493E19 /* EisenOKUITests.swift */,
+				C4FD424520A625C400493E19 /* Info.plist */,
+			);
+			path = EisenOKUITests;
+			sourceTree = "<group>";
+		};
+		C4FD425320AB26F100493E19 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C4FD422520A625BF00493E19 /* ViewController.swift */,
+				C4997F1620D92C7B005C7F53 /* Today */,
+				C46D48E220FE6F06002AE11A /* Project */,
+				C46D48E320FE6F28002AE11A /* Incoming */,
+				C46D48E420FE6F38002AE11A /* Statistics */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4FD421F20A625BF00493E19 /* EisenOK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4FD424820A625C400493E19 /* Build configuration list for PBXNativeTarget "EisenOK" */;
+			buildPhases = (
+				C4FD421C20A625BF00493E19 /* Sources */,
+				C4FD421D20A625BF00493E19 /* Frameworks */,
+				C4FD421E20A625BF00493E19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EisenOK;
+			productName = EisenOK;
+			productReference = C4FD422020A625BF00493E19 /* EisenOK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4FD423320A625C400493E19 /* EisenOKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4FD424B20A625C400493E19 /* Build configuration list for PBXNativeTarget "EisenOKTests" */;
+			buildPhases = (
+				C4FD423020A625C400493E19 /* Sources */,
+				C4FD423120A625C400493E19 /* Frameworks */,
+				C4FD423220A625C400493E19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4FD423620A625C400493E19 /* PBXTargetDependency */,
+			);
+			name = EisenOKTests;
+			productName = EisenOKTests;
+			productReference = C4FD423420A625C400493E19 /* EisenOKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4FD423E20A625C400493E19 /* EisenOKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4FD424E20A625C400493E19 /* Build configuration list for PBXNativeTarget "EisenOKUITests" */;
+			buildPhases = (
+				C4FD423B20A625C400493E19 /* Sources */,
+				C4FD423C20A625C400493E19 /* Frameworks */,
+				C4FD423D20A625C400493E19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4FD424120A625C400493E19 /* PBXTargetDependency */,
+			);
+			name = EisenOKUITests;
+			productName = EisenOKUITests;
+			productReference = C4FD423F20A625C400493E19 /* EisenOKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4FD421820A625BF00493E19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = UkropSoft;
+				TargetAttributes = {
+					C4FD421F20A625BF00493E19 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					C4FD423320A625C400493E19 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = C4FD421F20A625BF00493E19;
+					};
+					C4FD423E20A625C400493E19 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = C4FD421F20A625BF00493E19;
+					};
+				};
+			};
+			buildConfigurationList = C4FD421B20A625BF00493E19 /* Build configuration list for PBXProject "EisenOK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4FD421720A625BF00493E19;
+			productRefGroup = C4FD422120A625BF00493E19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4FD421F20A625BF00493E19 /* EisenOK */,
+				C4FD423320A625C400493E19 /* EisenOKTests */,
+				C4FD423E20A625C400493E19 /* EisenOKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4FD421E20A625BF00493E19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FD422E20A625C400493E19 /* LaunchScreen.storyboard in Resources */,
+				C4FD422B20A625C400493E19 /* Assets.xcassets in Resources */,
+				C4FD422920A625BF00493E19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FD423220A625C400493E19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FD423D20A625C400493E19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4FD421C20A625BF00493E19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E8BF0F210FB7D600F00882 /* IconProjectCell.swift in Sources */,
+				C425F81820D260CD00D9EF6C /* ProjectViewController.swift in Sources */,
+				C46D48DA20FE2CED002AE11A /* CustomTextView.swift in Sources */,
+				C4FD425520AC7BFA00493E19 /* TodayViewController.swift in Sources */,
+				C46D48D620FE01DA002AE11A /* CustomTableViewCellProject.swift in Sources */,
+				C469AAD620EBB97500A82534 /* StatisticsViewController.swift in Sources */,
+				C469AAD820ED022800A82534 /* KDCircularProgress.swift in Sources */,
+				C4FD425820AC962E00493E19 /* EisenOKDB.xcdatamodeld in Sources */,
+				C469AAC320EB989E00A82534 /* IncomingViewController.swift in Sources */,
+				C45B5A7620E6CE7B00923CCF /* UpdateTaskViewController.swift in Sources */,
+				C4923D5521011D020089490C /* CustomCardView.swift in Sources */,
+				C4997F1120D8FBD5005C7F53 /* ShowTaskTodayCategoryViewController.swift in Sources */,
+				C425F81A20D2654100D9EF6C /* TaskView.swift in Sources */,
+				C4B8359C20EACBA700F00EAB /* ANCustomView.swift in Sources */,
+				C469AABF20EB79E000A82534 /* RadioWaveAnimationView.swift in Sources */,
+				C4FD422620A625BF00493E19 /* ViewController.swift in Sources */,
+				C46D48D820FE2152002AE11A /* NewProjectVC.swift in Sources */,
+				308586AC20EF91930002F2A5 /* ShowTaskViewController.swift in Sources */,
+				C493C1432124C5A70097A8F6 /* CustomTableViewCellTask.swift in Sources */,
+				C4997F1520D91F27005C7F53 /* AddNewTaskViewController.swift in Sources */,
+				C4FD422420A625BF00493E19 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FD423020A625C400493E19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FD423920A625C400493E19 /* EisenOKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FD423B20A625C400493E19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FD424420A625C400493E19 /* EisenOKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4FD423620A625C400493E19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4FD421F20A625BF00493E19 /* EisenOK */;
+			targetProxy = C4FD423520A625C400493E19 /* PBXContainerItemProxy */;
+		};
+		C4FD424120A625C400493E19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4FD421F20A625BF00493E19 /* EisenOK */;
+			targetProxy = C4FD424020A625C400493E19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4FD422720A625BF00493E19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4FD422820A625BF00493E19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4FD422C20A625C400493E19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4FD422D20A625C400493E19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4FD424620A625C400493E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4FD424720A625C400493E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4FD424920A625C400493E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3XR6L3UUU;
+				INFOPLIST_FILE = EisenOK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ukropsoft.EisenOK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4FD424A20A625C400493E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3XR6L3UUU;
+				INFOPLIST_FILE = EisenOK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ukropsoft.EisenOK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4FD424C20A625C400493E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DRAA3S5YU;
+				INFOPLIST_FILE = EisenOKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ukropsoft.EisenOKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EisenOK.app/EisenOK";
+			};
+			name = Debug;
+		};
+		C4FD424D20A625C400493E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DRAA3S5YU;
+				INFOPLIST_FILE = EisenOKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ukropsoft.EisenOKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EisenOK.app/EisenOK";
+			};
+			name = Release;
+		};
+		C4FD424F20A625C400493E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DRAA3S5YU;
+				INFOPLIST_FILE = EisenOKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ukropsoft.EisenOKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EisenOK;
+			};
+			name = Debug;
+		};
+		C4FD425020A625C400493E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DRAA3S5YU;
+				INFOPLIST_FILE = EisenOKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ukropsoft.EisenOKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EisenOK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4FD421B20A625BF00493E19 /* Build configuration list for PBXProject "EisenOK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FD424620A625C400493E19 /* Debug */,
+				C4FD424720A625C400493E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4FD424820A625C400493E19 /* Build configuration list for PBXNativeTarget "EisenOK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FD424920A625C400493E19 /* Debug */,
+				C4FD424A20A625C400493E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4FD424B20A625C400493E19 /* Build configuration list for PBXNativeTarget "EisenOKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FD424C20A625C400493E19 /* Debug */,
+				C4FD424D20A625C400493E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4FD424E20A625C400493E19 /* Build configuration list for PBXNativeTarget "EisenOKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FD424F20A625C400493E19 /* Debug */,
+				C4FD425020A625C400493E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C4FD425620AC962E00493E19 /* EisenOKDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C4FD425720AC962E00493E19 /* EisenOKDB.xcdatamodel */,
+			);
+			currentVersion = C4FD425720AC962E00493E19 /* EisenOKDB.xcdatamodel */;
+			path = EisenOKDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C4FD421820A625BF00493E19 /* Project object */;
+}
